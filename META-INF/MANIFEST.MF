@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Belajar
+Bundle-SymbolicName: com.reka.belajar
+Bundle-Version: 1.0.0.qualifier
+Import-Package: org.osgi.service.component.annotations;version="1.3.0"
+Bundle-Vendor: REKA
+Require-Bundle: org.adempiere.base;bundle-version="11.0.0"
+Automatic-Module-Name: com.reka.belajar
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Service-Component: OSGI-INF/*.xml,
+ RekaProcessFactory.xml
