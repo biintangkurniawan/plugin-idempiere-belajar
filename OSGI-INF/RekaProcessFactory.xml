@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.reka.belajar.component.RekaProcessFactory">
-   <implementation class="com.reka.belajar.component.RekaProcessFactory"/>
-   <property name="service.ranking" type="Integer" value="1"/>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0"
+    name="com.reka.belajar.component.RekaProcessFactory"
+    immediate="true">
+
+    <implementation class="com.reka.belajar.component.RekaProcessFactory"/>
+
+    <service>
+        <provide interface="org.adempiere.base.IProcessFactory"/>
+    </service>
+
+    <property name="service.ranking" type="Integer" value="1"/>
 </scr:component>

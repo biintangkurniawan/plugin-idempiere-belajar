@@ -8,5 +8,4 @@ Bundle-Vendor: REKA
 Require-Bundle: org.adempiere.base;bundle-version="11.0.0"
 Automatic-Module-Name: com.reka.belajar
 Bundle-RequiredExecutionEnvironment: JavaSE-17
-Service-Component: OSGI-INF/*.xml,
- RekaProcessFactory.xml
+Service-Component: OSGI-INF/RekaProcessFactory.xml
