@@ -75,7 +75,7 @@ public class UpdateDescriptionSalesOrder extends SvrProcess {
         // Build new description exactly as required
         String newDescription = "Document NO:" + docNo + " Desc:" + desc;
 
-        order.setDescription(newDescription);
+//        order.setDescription(newDescription);
         order.saveEx(get_TrxName());
 
         // Log for process result window
